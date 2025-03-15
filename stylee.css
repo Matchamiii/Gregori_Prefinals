@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #87CEEB, #E0F7FA); /* Sky blue gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #00BFFF; /* Deep sky blue */
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 5px solid #0077B6; /* Darker blue accent */
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Product Image */
+  #product-image {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #product-image img {
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Description */
+  #description {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #description h2 {
+    color: #0077B6; /* Darker blue */
+  }
+  
+  /* Benefits */
+  #benefits {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #benefits h2 {
+    color: #0077B6;
+  }
+  
+  #benefits ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #benefits li {
+    background-color: #00BFFF; /* Deep sky blue */
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Price */
+  #price {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .price-tag {
+    font-size: 2rem;
+    color: #0077B6;
+    font-weight: bold;
+  }
+  
+  .buy-button {
+    background-color: #0077B6; /* Darker blue */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #005F8A; /* Even darker blue */
+  }
+  
+  /* Reviews */
+  #reviews {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #reviews h2 {
+    color: #0077B6;
+  }
+  
+  .review {
+    margin-bottom: 15px;
+  }
+  
+  .review p {
+    margin: 0;
+  }
+  
+  /* FAQs */
+  #faqs {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #faqs h2 {
+    color: #0077B6;
+  }
+  
+  .faq h3 {
+    color: #00BFFF; /* Deep sky blue */
+  }
+  
+  /* Ingredients */
+  #ingredients {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #ingredients h2 {
+    color: #0077B6;
+  }
+  
+  #ingredients ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #ingredients li {
+    background-color: #00BFFF; /* Deep sky blue */
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Contact */
+  #contact {
+    background-color: #0077B6; /* Darker blue */
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    border-top: 5px solid #00BFFF; /* Deep sky blue accent */
+  }
+  
+  #contact h2 {
+    margin: 0;
+  }
+  
+  #contact p {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #00BFFF; /* Deep sky blue */
+  }
+
+  
